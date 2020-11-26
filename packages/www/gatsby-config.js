@@ -1,7 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
-module.exports = {};
+module.exports = {
+    plugins:[
+        {
+            resolve: `gatsby-plugin-create-client-paths`,
+            opthion:{prefixes: [`/app/*`]}
+        }
+    ]
+};
