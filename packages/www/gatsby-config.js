@@ -1,7 +1,7 @@
 module.exports = {
     plugins:[
         {
-            resolve: `gatsby-plugin-create-client-paths`,
+            resolve: 'gatsby-plugin-create-client-paths',
             opthion:{prefixes: [`/app/*`]}
         }
     ]
