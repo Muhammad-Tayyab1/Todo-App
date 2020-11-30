@@ -1,4 +1,3 @@
-  
 const React = require("react");
 const netlifyIdentity = require("netlify-identity-widget");
 
