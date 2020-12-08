@@ -62,7 +62,7 @@ export default () => {
             p={2}
             onClick={() => {
               netlifyIdentity.logout();
-            }}
+            }} style={{color:'black'}}
           >
             Log out {user.user_metadata.full_name}
           </NavLink>

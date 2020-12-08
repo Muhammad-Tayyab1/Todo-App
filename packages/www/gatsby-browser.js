@@ -22,7 +22,7 @@ const authLink = setContext((_, { headers }) => {
 });
 
 const httpLink = new HttpLink({
-    uri: 'https://serverless-todoapp.netlify.app/.netlify/functions/TodoApp',
+    uri: 'https://vibrant-snyder-ddc5ea.netlify.app/.netlify/functions/TodoApp',
 });
 const client = new ApolloClient({
   cache: new InMemoryCache(),
